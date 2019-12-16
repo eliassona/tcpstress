@@ -79,4 +79,112 @@ public class TcpRepl {
 		new TcpRepl().start();
 	}
 	
+	
+	//code in mz
+	
+	
+//	package com.digitalroute.mz.mzrepl;
+//
+//
+//	import java.util.HashSet;
+//	import java.util.List;
+//	import java.util.Set;
+//
+//	import com.digitalroute.picostart.BasePicoClientDescriptor;
+//	import com.digitalroute.picostart.PicoClientDependency;
+//	import com.digitalroute.picostart.PicoType;
+//
+//	public class ReplServiceDescriptor extends BasePicoClientDescriptor<ReplService> {
+//
+//		@Override
+//		public Class<ReplService> getPicoClientClass() {
+//			return ReplService.class;
+//		}
+//
+//		@Override
+//		public List<Class<?>> getPicoClientInterfaces() {
+//			return asList();
+//		}
+//
+//		@Override
+//		public String getName() {
+//			return "cljrepl";
+//		}
+//
+//		@Override
+//		public PicoClientDependency[] getDependencies() {
+//			return new PicoClientDependency[]{};
+//		}
+//
+//		private static Set<PicoType> startSet = new HashSet<>();
+//		
+//		{
+//			startSet.add(PicoType.EC);
+//			startSet.add(PicoType.ECSA);
+//			startSet.add(PicoType.PLATFORM);
+//		}
+//		
+//		@Override
+//		public boolean autoStartOn(final PicoType pt) {
+//	        return startSet.contains(pt);
+//		}
+//
+//
+//	}
+//
+
+	
+	
+//	package com.digitalroute.mz.mzrepl;
+//
+//
+//	import java.util.HashSet;
+//	import java.util.List;
+//	import java.util.Set;
+//
+//	import com.digitalroute.picostart.BasePicoClientDescriptor;
+//	import com.digitalroute.picostart.PicoClientDependency;
+//	import com.digitalroute.picostart.PicoType;
+//
+//	public class ReplServiceDescriptor extends BasePicoClientDescriptor<ReplService> {
+//
+//		@Override
+//		public Class<ReplService> getPicoClientClass() {
+//			return ReplService.class;
+//		}
+//
+//		@Override
+//		public List<Class<?>> getPicoClientInterfaces() {
+//			return asList();
+//		}
+//
+//		@Override
+//		public String getName() {
+//			return "cljrepl";
+//		}
+//
+//		@Override
+//		public PicoClientDependency[] getDependencies() {
+//			return new PicoClientDependency[]{};
+//		}
+//
+//		private static Set<PicoType> startSet = new HashSet<>();
+//		
+//		{
+//			startSet.add(PicoType.EC);
+//			startSet.add(PicoType.ECSA);
+//			startSet.add(PicoType.PLATFORM);
+//		}
+//		
+//		@Override
+//		public boolean autoStartOn(final PicoType pt) {
+//	        return startSet.contains(pt);
+//		}
+//
+//
+//	}
+
+	
+	
+	
 }
